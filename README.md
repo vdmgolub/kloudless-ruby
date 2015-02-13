@@ -33,6 +33,18 @@ account = Kloudless::Account.update(account_id: account.id, active: false)
 Kloudless::Account.delete(account_id: account.id)
 ```
 
+## Version
+
+This gem uses [semantic versioning](http://semver.org), where a version number
+looks like:
+
+```
+v major.minor.patch
+```
+
+The major version tracks the version of the Kloudless API. For example, all
+versions that start with `v0.x.y` are compatible with Kloudless API `v0`.
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/kloudless/fork )
