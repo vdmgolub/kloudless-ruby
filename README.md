@@ -45,6 +45,11 @@ v major.minor.patch
 The major version tracks the version of the Kloudless API. For example, all
 versions that start with `v0.x.y` are compatible with Kloudless API `v0`.
 
+## Release
+
+To release this gem, look under the `script` directory. Check out
+[jch/release-scripts](https://github.com/jch/release-scripts) for details.
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/kloudless/fork )
