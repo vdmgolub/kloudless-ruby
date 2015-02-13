@@ -10,8 +10,11 @@
 - associations between models. e.g. Account#files
 - Folder#retrieve should distinguish between subfolders and files
 - webhooks?
-- implement multipart upload File#update
 - integration tests that can be run locally
+- File#update not implemented
+- Model attribute setters. e.g. f = File.new; f.name = '3'
+- Object oriented style sugar interface: f = File.new; f.save (does create or update)
+- `find . -type f | xargs grep 'TODO'` for more
 
 ## Doc errors
 

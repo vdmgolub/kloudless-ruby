@@ -52,26 +52,11 @@ To release this gem, look under the `script` directory. Check out
 
 ## Contributing
 
+[TODO.md](TODO.md) has a list of things to work on. File an issue or pull
+request if you'd like to discuss or tackle any of those tasks.
+
 1. Fork it ( https://github.com/[my-github-username]/kloudless/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new [Pull Request](https://help.github.com/send-pull-requests/)
-
-## Wishlist
-
-- File#update not implemented
-- Model attribute setters. e.g. f = File.new; f.name = '3'
-- Object oriented style sugar interface: f = File.new; f.save (does create or update)
-- associations between models. e.g. Account#files
-- TravisCI
-- README: examples, design, references
-- rdoc/yard documentation
-- move HTTP testing helpers to test_helper
-- support more rubies 2.0? 1.9? jruby? using 2.1 kwargs
-- what should #delete return? boolean, response
-- better coverage in http tests
-- Folder#retrieve should distinguish between subfolders and files
-- webhooks?
-- integration tests that can be run locally
-- `find . -type f | xargs grep 'TODO'` for more
