@@ -5,13 +5,12 @@
 - README: examples, design, references
 - publish gem
 - rdoc/yard documentation
-- move HTTP testing helpers to test_helper
-- support ruby 2.0? 1.9?
-- what should #delete return? boolean, response
+- support ruby 2.0? 1.9? (Only thing block this is I use required kwargs from 2.1)
+- what should #delete return? boolean, Response object?
 - associations between models. e.g. Account#files
-- better coverage on http tests
 - Folder#retrieve should distinguish between subfolders and files
 - webhooks?
+- implement multipart upload File#update
 - integration tests that can be run locally
 
 ## Doc errors
