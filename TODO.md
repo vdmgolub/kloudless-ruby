@@ -3,7 +3,6 @@
 - TravisCI
 - parameter checking
 - README: examples, design, references
-- define supported rubies
 - publish gem
 - rdoc/yard documentation
 - move HTTP testing helpers to test_helper
