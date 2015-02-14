@@ -8,8 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Kloudless::VERSION
   spec.authors       = ["Jerry Cheung"]
   spec.email         = ["jollyjerry@gmail.com"]
-  spec.summary       = %q{Kloudless API client}
-  spec.homepage      = "https://github.com/jch/kloudless"
+  spec.summary       = %q{Ruby Kloudless API client. The last cloud storage API you’ll ever need.}
+  spec.description   = %q{Ruby Kloudless API client}
+  spec.homepage      = "https://github.com/jch/kloudless-ruby"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.1"
 
@@ -19,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "byebug"
-  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "rake", "~> 10"
+  spec.add_development_dependency "byebug", "~> 3"
+  spec.add_development_dependency "minitest", "~> 5"
 end
